@@ -15,11 +15,11 @@ const TikTokLogo = () => (
 );
 
 const ShopifyLogo = () => (
-  <div className="w-12 h-12 flex items-center justify-center">
-    <svg viewBox="0 0 24 24" className="w-10 h-10 fill-[#95BF47] group-hover:fill-white transition-colors">
-       <path d="M21.366 7.26c-.167-.53-.664-.92-1.22-1.02l-9.5-1.74a1.35 1.35 0 0 0-.5.02L2.64 6.26c-.53.16-.9.63-1.02 1.17L.02 16.5c-.1.56.2 1.1.7 1.34l9.5 4.5c.33.16.7.16 1.04 0l9.5-4.5c.5-.24.8-.78.7-1.34l-1.6-9.24zM11.5 19.8l-7.5-3.55 1.25-7.2 7.5 1.36-1.25 9.4zm0-11.4L4.8 7.2l6.7-1.23 6.7 1.23-6.7 1.2z" />
-    </svg>
-  </div>
+  <svg viewBox="0 0 109 124" className="w-12 h-12" xmlns="http://www.w3.org/2000/svg">
+    <path d="M95.5 23.6c-0.1-0.8-0.8-1.2-1.3-1.3c-0.6-0.1-11.4-0.2-11.4-0.2s-9-8.9-9.9-9.8c-0.9-0.9-2.8-0.6-3.5-0.4c-0.1 0-2 0.6-5.1 1.6C62.6 9.1 59.7 3 54 3C53.6 3 53.2 3 52.7 3.1C51 1.1 48.9 0 47.1 0C30.8 0 22.9 20.3 20.4 30.6l-13.2 4.1C3 36 3 36.1 2.5 40.3L0 109.3l74.2 13.9L109 115c0 0-13.3-90.6-13.5-91.4zM62.8 15.8c-2.4 0.7-5.1 1.6-8 2.5c0-4.2-0.6-10-2.7-14.9C57.3 4.2 61.1 10.9 62.8 15.8zM51.3 19.3c-5.5 1.7-11.4 3.5-17.4 5.4C35.9 15.4 41 5 49.6 3.4C51.8 7.9 51.6 14.7 51.3 19.3zM46.9 3.3c0.7 0 1.3 0.2 1.9 0.5C40.9 5.7 36 16.5 34 25.5c-5.1 1.6-10.1 3.1-14.7 4.6C21.7 20.5 28.6 3.3 46.9 3.3z" fill="#95BF47"/>
+    <path d="M94.2 22.3c-0.6-0.1-11.4-0.2-11.4-0.2s-9-8.9-9.9-9.8c-0.4-0.4-0.8-0.5-1.3-0.5l0 111.5l34.8-7.4c0 0-13.3-90.6-13.5-91.4C93.8 23.7 93.8 22.4 94.2 22.3z" fill="#5E8E3E"/>
+    <path d="M54 39.5l-4.3 16.1c0 0-4.8-2.2-10.5-1.9c-8.4 0.5-8.4 5.8-8.4 7.1c0.5 7.5 20.2 9.1 21.3 26.7c0.9 13.8-7.3 23.3-19.1 24c-14.1 0.9-21.2-7.4-21.2-7.4l2.9-12.3c0 0 7.1 5.4 12.8 5c3.7-0.2 5.1-3.3 4.9-5.4c-0.6-9.8-16.7-9.2-17.7-25.3c-0.8-13.5 8-27.3 27.7-28.5C49.6 37.2 54 39.5 54 39.5z" fill="white"/>
+  </svg>
 );
 
 const WooCommerceLogo = () => (
@@ -31,13 +31,53 @@ const WooCommerceLogo = () => (
   </svg>
 );
 
-const CapCutLogo = () => (
-  <div className="w-12 h-12 flex items-center justify-center">
-    <svg viewBox="0 0 24 24" className="w-10 h-10 fill-black group-hover:fill-white transition-colors">
-      <path d="M2 12C2 6.48 6.48 2 12 2s10 4.48 10 10-4.48 10-10 10S2 17.52 2 12zm10 6c3.31 0 6-2.69 6-6s-2.69-6-6-6-6 2.69-6 6 2.69 6 6 6z"/>
-    </svg>
-  </div>
+const DaVinciResolveLogo = () => (
+  <svg viewBox="0 0 100 100" className="w-12 h-12" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="borderGrad" cx="50%" cy="0%" r="100%">
+        <stop offset="0%" stopColor="#00E5FF"/>
+        <stop offset="40%" stopColor="#00FF88"/>
+        <stop offset="70%" stopColor="#FFD700"/>
+        <stop offset="100%" stopColor="#FF4444"/>
+      </radialGradient>
+      <radialGradient id="bgGrad" cx="50%" cy="30%" r="70%">
+        <stop offset="0%" stopColor="#2A3A5C"/>
+        <stop offset="100%" stopColor="#1A2440"/>
+      </radialGradient>
+      <radialGradient id="blueGrad" cx="40%" cy="30%" r="60%">
+        <stop offset="0%" stopColor="#80DFFF"/>
+        <stop offset="100%" stopColor="#0088CC"/>
+      </radialGradient>
+      <radialGradient id="greenGrad" cx="40%" cy="30%" r="60%">
+        <stop offset="0%" stopColor="#CCFF44"/>
+        <stop offset="100%" stopColor="#88BB00"/>
+      </radialGradient>
+      <radialGradient id="redGrad" cx="40%" cy="30%" r="60%">
+        <stop offset="0%" stopColor="#FFAAAA"/>
+        <stop offset="100%" stopColor="#FF4466"/>
+      </radialGradient>
+    </defs>
+
+    {/* Colorful gradient border */}
+    <rect x="1" y="1" width="98" height="98" rx="22" fill="url(#borderGrad)"/>
+    
+    {/* Dark navy background */}
+    <rect x="5" y="5" width="90" height="90" rx="18" fill="url(#bgGrad)"/>
+
+    {/* Blue teardrop - top center */}
+    <ellipse cx="50" cy="34" rx="13" ry="16" fill="url(#blueGrad)"/>
+    <ellipse cx="50" cy="48" rx="6" ry="4" fill="url(#blueGrad)" opacity="0.6"/>
+
+    {/* Yellow-green teardrop - bottom left */}
+    <ellipse cx="34" cy="62" rx="14" ry="16" fill="url(#greenGrad)"/>
+    <ellipse cx="42" cy="52" rx="5" ry="4" fill="url(#greenGrad)" opacity="0.6"/>
+
+    {/* Red-pink teardrop - bottom right */}
+    <ellipse cx="66" cy="62" rx="14" ry="16" fill="url(#redGrad)"/>
+    <ellipse cx="58" cy="52" rx="5" ry="4" fill="url(#redGrad)" opacity="0.6"/>
+  </svg>
 );
+
 
 
 const PremiereLogo = () => (
@@ -54,11 +94,25 @@ const ZoomLogo = () => (
 );
 
 const GoogleMeetLogo = () => (
-  <div className="w-12 h-12 flex items-center justify-center">
-    <svg viewBox="0 0 24 24" className="w-10 h-10 fill-bold-black group-hover:fill-white transition-colors">
-      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm5 13h-3v-2h3v2zm0-4h-3V9h3v2zm-5 4H7V9h5v6z"/>
-    </svg>
-  </div>
+  <svg viewBox="0 0 100 100" className="w-12 h-12" xmlns="http://www.w3.org/2000/svg">
+
+    {/* Red - top left */}
+    <path d="M20 12 Q12 12 12 20 L12 50 L50 50 L50 12 Z" fill="#EA4335"/>
+    {/* Yellow - top right */}
+    <path d="M50 12 L50 50 L72 50 L72 20 Q72 12 64 12 Z" fill="#FBBC04"/>
+    {/* Blue - bottom left */}
+    <path d="M12 50 L12 80 Q12 88 20 88 L50 88 L50 50 Z" fill="#4285F4"/>
+    {/* Green - bottom right */}
+    <path d="M50 50 L50 88 L64 88 Q72 88 72 80 L72 50 Z" fill="#34A853"/>
+
+    {/* White/transparent center square cutout */}
+    <rect x="30" y="30" width="40" height="40" rx="4" fill="white"/>
+
+    {/* Green video camera triangle pointing right */}
+    <polygon points="72,38 90,28 90,72 72,62" fill="#34A853"/>
+    <rect x="86" y="28" width="6" height="44" rx="3" fill="#34A853"/>
+
+  </svg>
 );
 import { ServiceItem } from '../types';
 
@@ -75,7 +129,7 @@ const services: ServiceItem[] = [
   },
   {
     title: "Creative Production",
-    logos: [<CapCutLogo />, <PremiereLogo />],
+    logos: [<DaVinciResolveLogo />, <PremiereLogo />],
     items: ["Ad Creatives", "Viral Hooks", "Conversion Visuals", "UGC Management"]
   },
   {
